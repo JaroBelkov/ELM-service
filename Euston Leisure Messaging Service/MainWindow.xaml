@@ -1,0 +1,64 @@
+﻿<Window x:Class="Euston_Leisure_Messaging_Service.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Euston_Leisure_Messaging_Service"
+        mc:Ignorable="d"
+        Title="ELM Service" Height="790" Width="1000" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" BorderBrush="#FF0078D7" ResizeMode="CanMinimize" BorderThickness ="1" Left="650" Top="100">
+    <Grid>
+        <TabControl HorizontalAlignment="Right" Height="730" Margin="0,10,10,10" VerticalAlignment="Bottom" Width="490">
+            <TabItem x:Name="Trending" Header="Trending List" Width="120" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" Margin="-2,-2,-2,0" Height="32" IsEnabled="False">
+                <TabItem.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-10"/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TabItem.RenderTransform>
+                <Grid x:Name="TrendingGrid" Background="#FFE5E5E5" Width="500" Height="700" Margin="0,0,-6,0">
+                    <TextBox x:Name="TrendingText" Grid.ColumnSpan="3" Margin="10" TextWrapping="Wrap" FontWeight="Medium" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="#FFE5E5E5" BorderThickness="0" Cursor="No"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="Mentions" Header="Menstions" Width="120" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" Height="32" IsEnabled="False">
+                <TabItem.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-10"/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TabItem.RenderTransform>
+                <Grid x:Name="MentionsGrid" Background="#FFE5E5E5" Width="500" Height="700">
+                    <TextBox x:Name="MentionsText" Grid.ColumnSpan="3" Margin="10" TextWrapping="Wrap" FontWeight="Medium" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="#FFE5E5E5" BorderThickness="0" Cursor="No"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="Sir" Header="SIR" Width="120" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" Height="32" IsEnabled="False">
+                <TabItem.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-10"/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TabItem.RenderTransform>
+                <Grid x:Name="SirGrid" Background="#FFE5E5E5" Width="500" Height="700">
+                    <TextBox x:Name="SirText" Grid.ColumnSpan="3" Margin="10" TextWrapping="Wrap" FontWeight="Medium" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="#FFE5E5E5" BorderThickness="0" Cursor="No"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <CheckBox x:Name="RealTime" Content=" Process incoming messages in real time" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" FontWeight="Medium" Width="467"  Height="26" IsEnabled="False"/>
+        <CheckBox x:Name="ManualProcess" Content=" Process messages in current file one by one" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" FontWeight="Medium" Width="347" Height="26" IsEnabled="False" IsChecked="True"/>
+        <Button x:Name="ChooseFileToProcess" Content="Choose a file" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" FontWeight="Medium" Width="226" Cursor="Arrow" IsEnabled="False" Click="ChooseFileToProcess_Click"/>
+        <Button x:Name="ChooseDirToShow" Content="Choose directory to show" HorizontalAlignment="Left" Margin="244,125,0,0" VerticalAlignment="Top" FontWeight="Medium" Width="226" Cursor="Arrow" IsEnabled="False"/>
+        <Button x:Name="ProcessCurrentFile" Content="Process current file" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top"  FontWeight="Medium" Width="226" Cursor="Arrow" IsEnabled="False" Click="ProcessCurrentFile_Click"/>
+        <Button x:Name="ShowSingleMessage" Content="Show processed message" HorizontalAlignment="Left" Margin="244,155,0,0" VerticalAlignment="Top"  FontWeight="Medium" Width="226" Cursor="Arrow" IsEnabled="False"/>
+        <Label x:Name="CurrentFile" Content="" HorizontalAlignment="Left" Margin="104,10,0,0" VerticalAlignment="Top" Width="366" Foreground="#FF046404"/>
+        <TextBox x:Name="OutputText" Height="553" Margin="10" TextWrapping="Wrap" FontWeight="Medium" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="#FFE5E5E5" BorderThickness="0" VerticalAlignment="Bottom" Width="460" HorizontalAlignment="Left" Cursor="No"/>
+        <Label Content="Current file:" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="98" FontWeight="Medium" RenderTransformOrigin="0.541,-0.367"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="5,44,0,0" Stroke="Gray" VerticalAlignment="Top" Width="475"/>
+
+
+    </Grid>
+</Window>

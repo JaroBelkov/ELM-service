@@ -1,0 +1,17 @@
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\bin\Debug\Euston Leisure Messaging Service.exe.config
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\bin\Debug\Euston Leisure Messaging Service.exe
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\bin\Debug\Euston Leisure Messaging Service.pdb
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\MainWindow.g.cs
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\App.g.cs
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston Leisure Messaging Service_MarkupCompile.cache
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston Leisure Messaging Service_MarkupCompile.lref
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\MainWindow.baml
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston Leisure Messaging Service.g.resources
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston_Leisure_Messaging_Service.Properties.Resources.resources
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston Leisure Messaging Service.csproj.GenerateResource.Cache
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston Leisure Messaging Service.csproj.CoreCompileInputs.cache
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston Leisure Messaging Service.exe
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston Leisure Messaging Service.pdb
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\obj\Debug\Euston Leisure Messaging Service.csprojResolveAssemblyReference.cache
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\40187218\source\repos\Euston Leisure Message Editor\Euston Leisure Messaging Service\bin\Debug\Newtonsoft.Json.xml
